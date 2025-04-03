@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="User registration page">
+    <meta name="keywords" content="register, account creation, authentication, Google login, Facebook login">
+    <meta name="author" content="CodeByAnik">
+    <title>Register | CodeByAnik</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Register Wrapper -->
+    <div class="min-h-screen flex items-center justify-center px-4 py-6 sm:px-6 lg:px-8">
+        <div class="w-full max-w-md space-y-8">
+            <!-- Register Form -->
+            <div class="bg-white p-8 rounded-lg shadow-lg space-y-6">
+                <h2 class="text-center text-2xl font-bold text-gray-700">Create a New Account</h2>
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-600">Full Name</label>
+                        <input type="text" id="name" name="name" required class="w-full px-3 py-2 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-600">Email Address</label>
+                        <input type="email" id="email" name="email" required class="w-full px-3 py-2 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="you@example.com">
+                    </div>
+                    <div>
+                        <label for="password" class="block text-sm font-medium text-gray-600">Password</label>
+                        <input type="password" id="password" name="password" required class="w-full px-3 py-2 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Your password">
+                    </div>
+                    <div>
+                        <label for="confirm-password" class="block text-sm font-medium text-gray-600">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required class="w-full px-3 py-2 mt-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Confirm password">
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Register</button>
+                    </div>
+                </form>
+
+                <!-- Social Register Buttons -->
+                <div class="space-y-4 mt-6">
+                    <button class="w-full flex items-center justify-center py-2 px-4 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500">
+                        <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google" class="mr-3">Register with Google
+                    </button>
+                    <button class="w-full flex items-center justify-center py-2 px-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <img src="https://img.icons8.com/fluency/16/000000/facebook.png" alt="Facebook" class="mr-3">Register with Facebook
+                    </button>
+                </div>
+
+                <p class="text-center text-sm text-gray-500">
+                    Already have an account? <a href="index.html" class="text-blue-500 hover:text-blue-700">Login here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
